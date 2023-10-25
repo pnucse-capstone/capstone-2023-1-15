@@ -16,3 +16,26 @@ VR 환경에서의 사용자 반응 모니터링 툴을 개발하였습니다. �
 
 
 ### 5. 설치 및 사용법
+본 프로젝트는 Unity 2021.3.15.f1 버전을 사용하여 개발하였습니다.
+## 1. 레포지토리 클론 (https://github.com/heonhochoi/ReplayEngine)
+  해당 레포지토리를 복사합니다.
+## 2. Unity 설치
+  Unity 2021.3.15.f1 버전을 설치합니다.
+## 3. RealSense 파일 설치
+  - OpenCV (버전 상관없음)
+  https://opencv.org/releases/ <br/>
+  - Intel RealSense SDK <br/>
+  https://github.com/IntelRealSense/librealsense <br/>
+  - numpy, opencv, pyrealsense2 <br/>
+  command 창에서 입력 <br/>
+  pip install numpy <br/>
+  pip install opencv-python <br/>
+  pip install pyrealsense2 <br/>
+## 4. 장비 연결
+  오큘러스 퀘스트 및 리얼센스 카메라를 데스크탑 혹은 노트북에 연결
+
+## 5. 녹화 및 리플레이
+  Unity의 각 Object에 MovingObjectRecorder Script 부착<br/>
+  Recorder 게임오브젝트의 Recording 체크 후 플레이<br/>
+  Recorder 게임오브젝트의 Replaying 체크 후 플레이
+  
